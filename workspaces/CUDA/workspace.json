@@ -2,7 +2,6 @@
   "description": "NVIDIA CUDA enabled desktop",
   "docker_registry": "https://index.docker.io/v1/",
   "image_src": "ubuntu.png",
-  "name": "kasmweb/ubuntu-noble-desktop-nvidia-private:KASM-6818-cuda",
   "run_config": {
     "hostname": "kasm"
   },
@@ -18,7 +17,10 @@
     "arm64"
   ],
   "compatibility": [
-    "1.16.x"
-  ],
-  "uncompressed_size_mb": 5415
+    {
+      "version": "1.6.x",
+      "image": "kasmweb/ubuntu-noble-desktop-nvidia-private:KASM-6818-cuda",
+      "uncompressed_size_mb": 5415
+    }
+  ]
 }
