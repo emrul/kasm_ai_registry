@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Kasm AI Images',
     description: 'The official store for Kasm AI workspaces.',
     icon: '/img/logo.svg',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://emrul.github.io/kasm_ai_registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
