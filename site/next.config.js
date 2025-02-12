@@ -2,7 +2,7 @@
 
 const nextConfig = {
   env: {
-    name: 'Kasm AI Workspaces Registry',
+    name: 'Kasm AI Images',
     description: 'The official store for Kasm AI workspaces.',
     icon: '/img/logo.svg',
     listUrl: 'https://registry.kasmweb.com/',
